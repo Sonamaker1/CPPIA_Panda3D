@@ -1,3 +1,7 @@
+# CPPIA Panda3D
+
+This intended to grow into a full rewrite of the Panda3D python-bridge using Haxe and a dll for CPPIA. It's a bit rough around the edges for now. I was able to open a window and recolor it with haxe code though, which is great! Support for multiple haxe source files seems to work as well.
+
 # How to Add a New Function to the Cppia Bridge
 
 This guide explains how to expose a new C++ function to the Cppia scripting layer. The system uses a bridge architecture to pass calls from the interpreted Cppia script (`api`) to the compiled Haxe host (`host`), which then calls into Native C++.
