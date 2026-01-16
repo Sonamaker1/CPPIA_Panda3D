@@ -1,0 +1,5 @@
+/.qtcreator
+/.zig-cache
+/build
+/cache
+/zig-out

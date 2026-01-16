@@ -1,0 +1,12 @@
+# Extern-only API surface
+-cp haxe/api/src
+
+# Script sources
+-cp haxe/scripts/src
+
+-main OpenPandaWindow
+
+-D scriptable
+-debug
+
+-cppia build/scripts/open_panda_window.cppia
