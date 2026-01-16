@@ -1,0 +1,6 @@
+# Include path for project headers
+-I../../../include
+
+# Additional source files to compile
+api_shim.cpp
+bridge_exports.cpp
